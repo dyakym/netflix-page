@@ -1,5 +1,6 @@
-import { FC, useState } from 'react';
-import styles from './Stars.module.css';
+import { FC, useState } from "react";
+import styles from "./Stars.module.css";
+import cn from "classnames";
 
 interface StarsProps {
   stars: number[];
@@ -15,9 +16,12 @@ const Stars: FC<StarsProps> = ({ stars, selectedStars, handleStarClick }) => {
       {stars.map((_, i) => (
         <li
           key={i}
-          className={`${styles.stars__star} ${i < (hoveredStars || selectedStars) ? styles.filled : styles.empty}`}
+          className={cn(styles.stars__star, {
+            [styles.filled]: i < (hoveredStars || selectedStars),
+            [styles.empty]: i >= (hoveredStars || selectedStars),
+          })}
           onMouseEnter={() => setHoveredStars(i + 1)}
-          onMouseLeave={() => setHoveredStars(0)} 
+          onMouseLeave={() => setHoveredStars(0)}
           onClick={() => handleStarClick(i)}
         ></li>
       ))}

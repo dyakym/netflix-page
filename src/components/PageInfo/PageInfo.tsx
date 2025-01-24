@@ -25,13 +25,16 @@ function PageInfo() {
         <div className={styles.redSection}></div>
         <div className={styles.whiteSection}>16+</div>
       </div>
+
       <div className={styles.pageContainer}>
         <ul className={`${styles.flex} ${styles.filmGenresContainer}`}>
           <li className={styles.filmGenres}>Drama</li>
           <li className={styles.filmGenres}>Thriller</li>
           <li className={styles.filmGenres}>Supernatural</li>
         </ul>
+
         <h1 className={styles.filmTitle}>Stranger Things</h1>
+
         <ul className={styles.flex}>
           <li className={styles.filmInfo}>2019</li>
           <li className={styles.filmInfo}>
@@ -41,11 +44,13 @@ function PageInfo() {
             seasons: <span className={styles.filmInfoSpan}>3 (5 episodes)</span>
           </li>
         </ul>
+
         <div className={styles.filmDescription}>
           In 1980s Indiana, a group of young friends witness supernatural forces
           and secret government exploits. As they search for answers, the
           children unravel a series of extraordinary mysteries.
         </div>
+
         <div className={styles.starsContainer}>
           <Stars
             stars={stars}
@@ -53,6 +58,7 @@ function PageInfo() {
             handleStarClick={handleStarClick}
           />
         </div>
+
         <div className={`${styles.flex} ${styles.buttonContainer}`}>
           <Button
             variant="filled"
@@ -68,6 +74,7 @@ function PageInfo() {
           />
         </div>
       </div>
+
       <PopularList />
     </>
   );
