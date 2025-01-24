@@ -1,0 +1,4 @@
+@import './styles/reset.css';
+#container {
+  background-color:black;
+}
