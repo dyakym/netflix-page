@@ -42,52 +42,52 @@ function PopularList() {
         centeredSlides={false}
       >
         <SwiperSlide>
-          <a href="/the-rain">
+          <a href="#">
             <img src="/images/Rectangle7.png" alt="The Rain" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/luna-in-year">
+          <a href="#">
             <img src="/images/Rectangle8.png" alt="Luna in year" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/money-heist">
+          <a href="#">
             <img src="/images/Rectangle9.png" alt="Money Heist" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/squid-game">
+          <a href="#">
             <img src="/images/Rectangle11.png" alt="Squid Game" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/breaking-bad">
+          <a href="#">
             <img src="/images/Rectangle6.png" alt="Breaking Bad" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/the-rain">
+          <a href="#">
             <img src="/images/Rectangle7.png" alt="The Rain" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/luna-in-year">
+          <a href="#">
             <img src="/images/Rectangle8.png" alt="Luna in year" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/money-heist">
+          <a href="#">
             <img src="/images/Rectangle9.png" alt="Money Heist" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/squid-game">
+          <a href="#">
             <img src="/images/Rectangle11.png" alt="Squid Game" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/breaking-bad">
+          <a href="#">
             <img src="/images/Rectangle6.png" alt="Breaking Bad" />
           </a>
         </SwiperSlide>
