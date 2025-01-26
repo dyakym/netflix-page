@@ -4,7 +4,7 @@
   line-height: 32px;
   margin-bottom: 32px;
   padding-left: 86px;
-
+  color: #fff;
 }
 
 .container {
@@ -65,4 +65,23 @@
 
 .customSwiper {
   padding-left: 10%;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    padding-left: 24px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .navigationButtons {
+    display: none;
+  }
+
+  .customSwiper {
+    padding-left: 0;
+    margin-left: 24px;
+  }
 }

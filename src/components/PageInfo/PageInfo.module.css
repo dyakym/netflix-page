@@ -40,6 +40,11 @@
   font-size: 64px;
   line-height: 78px;
   margin-bottom: 17px;
+  color: #fff;
+}
+
+.filmInfoContainer {
+  margin-bottom: 8px;
 }
 
 .filmInfo {
@@ -71,14 +76,14 @@
   font-weight: 400;
   font-size: 29px;
   line-height: 35px;
-  color: #A7A6A6;
+  color: #a7a6a6;
 }
 
 .filmDescription {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: #A7A6A6;
+  color: #a7a6a6;
   margin-bottom: 16px;
 }
 
@@ -94,7 +99,7 @@
 .fixedRectangle {
   position: fixed;
   bottom: 103px;
-  right: 0px; 
+  right: 0px;
   display: flex;
   align-items: center;
   height: 66px;
@@ -110,12 +115,58 @@
 .fixedRectangle .whiteSection {
   width: 141px;
   height: 100%;
-  background-color:  rgba(255, 255, 255, 0.49);
+  background-color: rgba(255, 255, 255, 0.49);
   color: #fff;
-  padding-left:26px;
+  padding-left: 26px;
   font-size: 24px;
   line-height: 34px;
   font-weight: bold;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .pageContainer {
+    padding-left: 24px;
+    max-width: 800px;
+  }
+
+  .filmGenresContainer {
+    margin-bottom: 32px;
+  }
+
+  .filmGenres {
+    font-size: 24px;
+    line-height: 20px;
+    padding: 0 8px;
+  }
+
+  .filmTitle {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .filmInfo {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .filmInfoSpan {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .filmDescription {
+    line-height: 24px;
+  }
+
+  .buttonContainer {
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .fixedRectangle {
+    display: none;
+  }
 }

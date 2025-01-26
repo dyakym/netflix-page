@@ -7,10 +7,9 @@
 
 .header {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
-  color: #C8C8C8;
-  padding: 10px 20px;
+  color: #c8c8c8;
   text-align: center;
   padding: 38px 33px 0px 86px;
   margin-bottom: 113px;
@@ -26,7 +25,7 @@
 }
 
 .date::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 0;
@@ -78,4 +77,11 @@
   height: 74px;
   border-radius: 50%;
   margin-left: 45px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 16px 12px 0px 24px;
+    margin-bottom: 84px;
+  }
 }

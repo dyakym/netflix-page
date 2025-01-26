@@ -35,7 +35,7 @@ function PageInfo() {
 
         <h1 className={styles.filmTitle}>Stranger Things</h1>
 
-        <ul className={styles.flex}>
+        <ul className={`${styles.flex} ${styles.filmInfoContainer}`}>
           <li className={styles.filmInfo}>2019</li>
           <li className={styles.filmInfo}>
             DIRECTOR: <span className={styles.filmInfoSpan}>Shawn Levy</span>

@@ -18,6 +18,16 @@ function PopularList() {
 
       <Swiper
         className={styles.customSwiper}
+        breakpoints={{
+          0: {
+            spaceBetween: 15,
+            slidesPerView: 4,
+          },
+          1024: {
+            spaceBetween: 40,
+            slidesPerView: 5,
+          },
+        }}
         spaceBetween={40}
         slidesPerView={5}
         navigation={{
@@ -32,34 +42,54 @@ function PopularList() {
         centeredSlides={false}
       >
         <SwiperSlide>
-          <img src="/images/Rectangle7.png" alt="The Rain" />
+          <a href="/the-rain">
+            <img src="/images/Rectangle7.png" alt="The Rain" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle8.png" alt="Luna in yaer" />
+          <a href="/luna-in-year">
+            <img src="/images/Rectangle8.png" alt="Luna in year" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle9.png" alt="Money Heist" />
+          <a href="/money-heist">
+            <img src="/images/Rectangle9.png" alt="Money Heist" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle11.png" alt="Squid game" />
+          <a href="/squid-game">
+            <img src="/images/Rectangle11.png" alt="Squid Game" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle6.png" alt="Breaking bad" />
+          <a href="/breaking-bad">
+            <img src="/images/Rectangle6.png" alt="Breaking Bad" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle7.png" alt="The Rain" />
+          <a href="/the-rain">
+            <img src="/images/Rectangle7.png" alt="The Rain" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle8.png" alt="Luna in yaer" />
+          <a href="/luna-in-year">
+            <img src="/images/Rectangle8.png" alt="Luna in year" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle9.png" alt="Money Heist" />
+          <a href="/money-heist">
+            <img src="/images/Rectangle9.png" alt="Money Heist" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle11.png" alt="Squid game" />
+          <a href="/squid-game">
+            <img src="/images/Rectangle11.png" alt="Squid Game" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/images/Rectangle6.png" alt="Breaking bad" />
+          <a href="/breaking-bad">
+            <img src="/images/Rectangle6.png" alt="Breaking Bad" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

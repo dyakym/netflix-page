@@ -22,15 +22,24 @@ const PointsCloud: React.FC = () => {
 
   useEffect(() => {
     const vertices = [];
+    const colors = [];
+    const color = new THREE.Color();
     for (let i = 0; i < 10000; i++) {
       const point = getPoint();
       vertices.push(4 * point[0], 4 * point[1], 4 * point[2]);
 
+      color.setHSL(Math.random(), 0.7, 0.5);
+      colors.push(color.r, color.g, color.b);
     }
     const geometry = new THREE.BufferGeometry();
     geometry.setAttribute(
       "position",
       new THREE.Float32BufferAttribute(vertices, 3)
+    );
+
+    geometry.setAttribute(
+      "color",
+      new THREE.Float32BufferAttribute(colors, 3)
     );
 
     if (pointsRef.current) {
@@ -40,7 +49,7 @@ const PointsCloud: React.FC = () => {
 
   return (
     <points ref={pointsRef}>
-      <pointsMaterial size={0.01} sizeAttenuation alphaTest={0.5} transparent />
+      <pointsMaterial size={0.01} sizeAttenuation alphaTest={0.5} transparent vertexColors/>\
     </points>
   );
 };
