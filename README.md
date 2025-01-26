@@ -6,12 +6,12 @@ This project is a React-based web application designed to showcase a streaming p
 
 ### Tech Stack
 
-React: Core framework for building the user interface.
-Three.js & @react-three/fiber:  For 3D visualization.
-CSS Modules: Modular and reusable CSS styling.
-TypeScript: Ensures type safety and improves code maintainability.
-classnames: Simplifies conditional class assignments.
-Swiper.js:  For carousel functionality.
+- **React**: Core framework for building the user interface.
+- **Three.js & @react-three/fiber**: For 3D visualization.
+- **CSS Modules**: Modular and reusable CSS styling.
+- **TypeScript**: Ensures type safety and improves code maintainability.
+- **classnames**: Simplifies conditional class assignments.
+- **Swiper.js**: For carousel functionality.
 
 #### How to Run
 
