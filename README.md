@@ -4,7 +4,11 @@
 
 This project is a React-based web application designed to showcase a streaming platform for movies and series. The application includes interactive components such as a 3D points visualization, a rating system, and a carousel displaying popular shows.
 
-### Tech Stack
+### Demo
+
+Check out the live demo: [DEMO](https://netflix-page-aeeu.vercel.app/)
+
+#### Tech Stack
 
 - **React**: Core framework for building the user interface.
 - **Three.js & @react-three/fiber**: For 3D visualization.
@@ -13,7 +17,7 @@ This project is a React-based web application designed to showcase a streaming p
 - **classnames**: Simplifies conditional class assignments.
 - **Swiper.js**: For carousel functionality.
 
-#### How to Run
+##### How to Run
 
 1. Clone the repository
 2. Navigate to the project directory
